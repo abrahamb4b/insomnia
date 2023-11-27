@@ -1,0 +1,42 @@
+_id: req_7b781b15553a4e8fb36267fccdfabe58
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174839
+created: 1680190174839
+url: http://localhost:3000/services/json/beneficiaries
+name: Create Beneficiary
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+          "name": "Test  acc name for voly failure",
+          "financial_institution": "FW091000019",
+          "account": "9824302203",
+          "address": {
+            "line_1": "420 Montgomery Street",
+            "line_2": "7th Floor",
+            "city": "San Francisco",
+            "county": "CA",
+            "postcode": "94104",
+            "country": "US"
+          }
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: web_services_user_gbp
+  password: yadayada1q@W
+metaSortKey: -1680190174839
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

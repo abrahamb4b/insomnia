@@ -1,0 +1,21 @@
+_id: req_ff00dfae6fa14763b919388e77ce2c4b
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174842
+created: 1680190174842
+url: ""
+name: Get Safeguarding Transfer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680190174842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_f5d4f093c9bc4abfbb8898b07de02b2e
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174840
+created: 1680190174840
+url: https://staging.b4bpayments.com/services/json/payments
+name: Submit payment - staging
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+          "beneficiary_uuid": "a854871e-9358-4eaa-95bd-cfc21fea0993",
+          "description": "Test USD to EUR payment",
+          "payment_reference": "usd to eur test",
+          "payment_amount": 9,
+          "payment_currency": "USD",
+          "beneficiary_currency": "EUR",
+          "callback_url": "https://www.toptal.com/developers/postbin/1677600829084-4694002307951"
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: abraham_api_uk
+  password: UBJ2xct-yah3fqu4quf
+metaSortKey: -1680190174840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_c72e181a97514fbda81f682ca14f2ccf
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174835
+created: 1680190174835
+url: http://localhost:3000/services/json/float_transfers
+name: In Currency F2F Transfer
+description: ""
+method: POST
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: basic
+  disabled: false
+  username: abraham
+  password: fuq1fen0cpf.dhg9VTG
+metaSortKey: -1680190174835
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

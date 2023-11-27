@@ -1,0 +1,21 @@
+_id: req_ab74b975adf24689ba0753007571bdd7
+type: Request
+parentId: wrk_ba34a159d3d74ff8835290995d523e68
+modified: 1680694051060
+created: 1680189982110
+url: http://eo5jh1hdoawfdg6.m.pipedream.net/
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680189982110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

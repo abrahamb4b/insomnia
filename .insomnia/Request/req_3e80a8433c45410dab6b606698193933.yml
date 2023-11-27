@@ -1,0 +1,55 @@
+_id: req_3e80a8433c45410dab6b606698193933
+type: Request
+parentId: fld_0d76669c6622464b9a810edafdc1bce3
+modified: 1680190199089
+created: 1680190199089
+url: https://sandbox.bankingcircleconnect.com/api/v1/virtualaccounts/orders
+name: Order Virtual Accounts
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "orderedAmount": 1,
+      "companyNumber": "999910340",
+      "defaultPhysicalAccountId": "7ab1c343-462e-317f-7765-7ac8109b5a79",
+      "orderType": "Pobo",
+      "customerDetailsList": [
+        {
+          "customerIdentifier": "string",
+          "customerType": "P",
+          "name": "Abraham Ltd",
+          "address1": "string",
+          "address2": "string",
+          "address3": "string",
+          "ubOfirstname1": "string",
+          "ubOlastname1": "string",
+          "ubOfirstname2": "string",
+          "ubOlastname2": "string",
+          "ubOfirstname3": "string",
+          "ubOlastname3": "string",
+          "ubOfirstname4": "string",
+          "ubOlastname4": "string",
+          "ubOfirstname5": "string",
+          "ubOlastname5": "string"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Im9JMmRKVjdpTUkxZU9pZWFsbnhCZ3lNb1pmOExRMmc2UGExUlVvdElVSFUifQ.eyJpc3MiOiJodHRwczovL2JhbmtpbmdjaXJjbGVub25wcm9kdGVuYW50LmIyY2xvZ2luLmNvbS9jNTUwZmZkZi01YWIyLTRjZTctYmM1NS0zNmU1YmIzZmYzYWQvdjIuMC8iLCJleHAiOjE2NzAyNDk5ODQsIm5iZiI6MTY3MDI0OTY4NCwiYXVkIjoiYzZmMDEyNDgtYmNmYS00MDZhLWE3OTEtODRiNzE0MjM0NmM2Iiwic3ViIjoiZGQ0OTZlMzMtNGQ2NS00MGEzLTllNDktZGY3MDE0OTc2ZjQ4Iiwib2lkIjoiZGQ0OTZlMzMtNGQ2NS00MGEzLTllNDktZGY3MDE0OTc2ZjQ4IiwibmFtZSI6IkI0QiBQYXltZW50cyBVQVQgQVBJIiwidXNlclR5cGUiOiI0IiwidGh1bWJwcmludCI6IjUyRkNEQTk3NkU5QzZGQzFBQjFGOEVDRTM5NkM0QkY0OUNDMEQzQjMiLCJhenAiOiJjNmYwMTI0OC1iY2ZhLTQwNmEtYTc5MS04NGI3MTQyMzQ2YzYiLCJ2ZXIiOiIxLjAiLCJpYXQiOjE2NzAyNDk2ODR9.BYn-qi8okRx19a4KHA6SZToI0bq0A0jET1Ia56as6SeqXLLwaikS8pQ5vIrSHfkINwyVB23pv63rZCGFfh623l4OHcSdRykRAYYpQ12Huur7h3j0AMOcCEfbv2Eku5-w-cARRrwkgT4Z-FUBXvAuRQJGugO13vvullZbFWVFNqmNnvcfVpD3BAMLtoxUmC-R1lS3bQeVK72VpLvqo4Z7wgCP5OeZ27mlkJIIeJqiuzd-rE3GiAF0Rt2szqY6csDP0dSk0niKLEH39qWYU5fHe6A4jLggyeRcVGC0xTnUQ5z4utq9kGOnX9bzotxwEh5GguYkVxMknH8iVJHORQK5fQ
+  prefix: ""
+metaSortKey: -1680190199089
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

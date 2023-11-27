@@ -1,0 +1,40 @@
+_id: req_1e31205e74e64d8f921df5533c2044ec
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174839
+created: 1680190174839
+url: http://localhost:3000/services/json/beneficiaries
+name: Create Beneficiary - staging
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+          "name": "Test  acc name",
+          "financial_institution": "Test financial institution",
+          "account": "DK8689000049911593",
+          "address": {
+            "line_1": "21 Some Street",
+            "city": "London",
+            "postcode": "SW10 4JS",
+            "country": "GB"
+          }
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: web_services_user_2
+  password: yadayoda
+metaSortKey: -1680190174839
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

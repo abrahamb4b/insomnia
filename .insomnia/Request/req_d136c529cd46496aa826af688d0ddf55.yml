@@ -1,0 +1,38 @@
+_id: req_d136c529cd46496aa826af688d0ddf55
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1701086378005
+created: 1680190174841
+url: http://localhost:3000/services/json/fx_quotes
+name: Get FX Quote
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+    	"payment_currency": "GBP",
+    	"beneficiary_currency": "USD",
+    	"payment_amount": 100
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - id: pair_677c37495ab3419ba99f3cde3d46ee9d
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: basic
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1680190174841
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

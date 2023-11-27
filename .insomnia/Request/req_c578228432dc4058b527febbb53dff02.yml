@@ -1,0 +1,27 @@
+_id: req_c578228432dc4058b527febbb53dff02
+type: Request
+parentId: fld_0d76669c6622464b9a810edafdc1bce3
+modified: 1680190199093
+created: 1680190199093
+url: https://sandbox.bankingcircleconnect.com/api/v1/payments/singles/s
+name: Make a Payment
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: ""
+  prefix: ""
+metaSortKey: -1680190199093
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

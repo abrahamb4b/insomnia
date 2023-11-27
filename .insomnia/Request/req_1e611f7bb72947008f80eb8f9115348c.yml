@@ -1,0 +1,36 @@
+_id: req_1e611f7bb72947008f80eb8f9115348c
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174845
+created: 1680190174845
+url: http://localhost:3000/services/json/payments
+name: Submit BC Webhook notification
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+          "beneficiary_uuid": "fd84bc25-517e-4b8f-a420-f0b98aa6a6cb",
+          "description": "Test financial institution",
+          "payment_reference": "Ref: test factory payment",
+          "payment_amount": 9,
+          "payment_currency": "GBP"
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: web_services_user_3
+  password: yadayoda
+metaSortKey: -1680190174845
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

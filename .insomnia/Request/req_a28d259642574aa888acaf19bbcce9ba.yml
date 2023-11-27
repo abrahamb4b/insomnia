@@ -1,0 +1,38 @@
+_id: req_a28d259642574aa888acaf19bbcce9ba
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174843
+created: 1680190174843
+url: https://staging.b4bpayments.com/services/json/safeguarding_transfers
+name: "[STAGING] Submit Safeguarding Transfer"
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "description": "Test incomming safeguarding transfer PROCESSED",
+        "amount": 120,
+        "currency": "USD",
+        "transfer_direction": "RemoteToB4B",
+        "remote_viban": "GB25SAPY60838220025026",
+        "callback_url": "https://test.example.com/callback",
+        "uuid": "87cffec8-c6c9-4bb6-aa2e-5aed5906fb8a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: abraham_api_uk_inst
+  password: udq3mtv-bca0mfz1GHG
+metaSortKey: -1680190174843
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

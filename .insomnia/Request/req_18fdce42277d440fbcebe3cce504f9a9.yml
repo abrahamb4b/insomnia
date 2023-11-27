@@ -1,0 +1,34 @@
+_id: req_18fdce42277d440fbcebe3cce504f9a9
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174841
+created: 1680190174841
+url: https://staging.b4bpayments.com/services/json/fx_quotes
+name: Get FX Quote Staging
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "payment_currency": "GBP",
+        "beneficiary_currency": "USD",
+        "payment_amount": 200
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: abraham_api_uk
+  password: UBJ2xct-yah3fqu4quf
+metaSortKey: -1680190174841
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

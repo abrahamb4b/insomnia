@@ -1,0 +1,27 @@
+_id: req_cd03add1edc8429e9362f55e7975289c
+type: Request
+parentId: fld_0d76669c6622464b9a810edafdc1bce3
+modified: 1680190199096
+created: 1680190199096
+url: https://authorizationsandbox.bankingcircleconnect.com/api/v1/authorizations/authorize
+name: https://authorizationsandbox.bankingcircleconnect.com/api/v1/authorizations/authorize
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Host
+    value: authorizationsandbox.bankingcircleconnect.com
+authentication:
+  type: basic
+  disabled: false
+  username: rob.anderson@b4bpayments.com
+  password: LnakhhfEp9G52t2XRGeSoy+cwspcGzjcNMkBTbkuSiI=
+metaSortKey: -1680190199096
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

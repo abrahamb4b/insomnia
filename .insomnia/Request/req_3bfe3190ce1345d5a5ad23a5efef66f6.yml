@@ -1,0 +1,21 @@
+_id: req_3bfe3190ce1345d5a5ad23a5efef66f6
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174843
+created: 1680190174843
+url: ""
+name: Get Beneficiary - staging
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680190174843
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

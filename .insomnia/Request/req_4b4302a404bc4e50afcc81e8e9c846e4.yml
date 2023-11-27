@@ -1,0 +1,21 @@
+_id: req_4b4302a404bc4e50afcc81e8e9c846e4
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174837
+created: 1680190174837
+url: ""
+name: Get Beneficiary Copy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680190174837
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

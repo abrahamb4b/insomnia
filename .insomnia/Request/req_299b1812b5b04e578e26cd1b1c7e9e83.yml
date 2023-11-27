@@ -1,0 +1,34 @@
+_id: req_299b1812b5b04e578e26cd1b1c7e9e83
+type: Request
+parentId: fld_54804b055add4085a4f891354acceafc
+modified: 1680190241737
+created: 1680190241737
+url: https://api.iban.com/clients/api/v4/iban/
+name: Validate an IBAN
+description: ""
+method: POST
+body:
+  params:
+    - type: default
+      name: iban
+      disabled: false
+      value: GB18BARC20325356044466
+    - type: default
+      name: api_key
+      disabled: false
+      value: 93bc83ee13225da5818bb2bd64cbea85
+  mimeType: multipart/form-data
+parameters:
+  - name: format
+    value: json
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1680190241737
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

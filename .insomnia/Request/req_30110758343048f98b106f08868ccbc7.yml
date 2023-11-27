@@ -1,0 +1,37 @@
+_id: req_30110758343048f98b106f08868ccbc7
+type: Request
+parentId: fld_4a6c976a8d7a411d86fa0dc1990dd7ce
+modified: 1680190174846
+created: 1680190174846
+url: http://localhost:3000/services/json/payments
+name: Submit payment
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+          "beneficiary_uuid": "fd84bc25-517e-4b8f-a420-f0b98aa6a6cb",
+          "description": "Test financial institution",
+          "payment_reference": "Ref: test factory payment",
+          "payment_amount": 9,
+          "payment_currency": "USD",
+          "callback_url": "https://eo5jh1hdoawfdg6.m.pipedream.net"
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  disabled: false
+  username: web_services_user_usd
+  password: yadayada1q@W
+metaSortKey: -1680190174846
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
